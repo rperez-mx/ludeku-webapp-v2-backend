@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "lists",
+  "info": {
+    "singularName": "list",
+    "pluralName": "lists",
+    "displayName": "List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Game": {
+      "type": "component",
+      "repeatable": true,
+      "component": "game.game-card"
+    }
+  }
+}
